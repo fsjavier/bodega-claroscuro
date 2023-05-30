@@ -1,3 +1,27 @@
+/*
+ Color Theme Swatches in RGBA
+strong-mustard {
+    color: rgba(165, 138, 3, 1);
+}
+
+camouflage {
+    color: rgba(63, 50, 12, 1);
+}
+
+top-hat-tan {
+    color: rgba(191, 163, 147, 1);
+}
+
+old-mandarin {
+    color: rgba(140, 35, 35, 1);
+}
+
+dark-sienna {
+    color: rgba(63, 17, 17, 1);
+}
+*/
+
+
 /* Import font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poiret+One&display=swap');
 
@@ -19,6 +43,7 @@ h2 {
     font-size: 250%;
     font-weight: 600;
     letter-spacing: 3px;
+    color: rgba(63, 17, 17, 1);
 }
 
 a {
@@ -80,11 +105,11 @@ header nav {
         align-items: center;
     }
 
-    header nav {
+    header a {
         width: 50%;
     }
 
-    #logo {
+    header nav {
         width: 50%;
     }
 
