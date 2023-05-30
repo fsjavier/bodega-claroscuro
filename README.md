@@ -1,39 +1,67 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Bodega Claroscuro
 
-Welcome,
+Welcome to Bodega Claroscuro, a fictional business located in northern Spain. The winery produces their own red and white wines, capturing the essence of the region.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The website serves as an online presence to engage wine enthusiasts, offering the possiblity to know more about winemaking and high-quality wines, which can be then purchased.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## User Goals
 
-## Codeanywhere Reminders
+* As a new user, I want to:
+  1. Know which wines are produced and their characteristics.
+  2. Learn about the winemaking process.
+  3. Know the pricing and how to purchase them.
+  4. Discover the location and opening times.
+  5. Find out how to contact them.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+* As a returning user, I want to:
+  1. Stay updated on any changes or news.
+  2. Know the current offered wines.
+  3. Easily access the contact information.
 
-`python3 -m http.server`
+## Features
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+* Navigation Bar
+  * Site wide
+  * Logo, links
 
-`http_server`
+* Landing Page / Home
+  * Hero image
+  * News
+  * Vineyard / cellar: The winemaking process
+  * Footer
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Our wines
+  * Red wines
+  * White wines
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+* Contact
+  * Contact form
+  * Map
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Features left to implement
 
-To log into the Heroku toolbelt CLI:
+* Online Shop
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Design
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Wireframes
 
----
+## Technologies Used
 
-Happy coding!
+## Testing
+
+### Validator Testing
+
+### Accessibility
+
+### Bugs
+
+## Deployment
+
+## Credits
+
+### Content
+
+### Media
