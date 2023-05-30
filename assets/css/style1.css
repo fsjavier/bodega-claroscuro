@@ -1,0 +1,94 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poiret+One&display=swap');
+
+/* generic rules */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Poiret One', sans-serif;
+    font-size: 250%;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header flexbox */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+/* logo */
+
+#logo {
+    padding: 10px 10px 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    min-width: 405px;
+}
+
+/* navigation bar */
+
+header nav {
+    width: 100%;
+}
+
+#menu {
+    display: flex;
+    justify-content: stretch;
+    box-sizing: border-box;
+    min-width: 405px;
+}
+
+#menu li {
+    list-style-type: none;
+    padding: 10px 20px;
+}
+
+
+/* media queries */
+/* generic */
+@media screen and (min-width: 500px) {
+
+    h1,
+    h2 {
+        font-family: 'Poiret One', sans-serif;
+        font-size: 280%;
+    }
+}
+
+/* header: logo and navigation */
+@media screen and (min-width: 900px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    header nav {
+        width: 50%;
+    }
+
+    #logo {
+        width: 50%;
+    }
+
+    #menu {
+        justify-content: flex-end;
+    }
+}
