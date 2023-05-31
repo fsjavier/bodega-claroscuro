@@ -111,20 +111,27 @@ header nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-#about h2 {
+#about-box {
     display: flex;
+    flex-direction: column;
     height: 20%;
     text-align: center;
     align-items: center;
     text-transform: uppercase;
     font-size: 120%;
     margin: 20px 0;
+    padding: 10px;
+    background-color: rgba(165, 138, 3, 0.3);
 }
 
-#about-first {
+#about-box h2 {
+    padding: 20px;
+}
+
+#about-first, #about-second {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,7 +139,7 @@ header nav {
     height: 40%;
 }
 
-#about-us-container {
+#about-us-container, #about-news-container {
     width: 300px;
     height: 200px;
     border: 1px solid rgba(165, 138, 3, 0.7);
@@ -147,27 +154,11 @@ header nav {
     border-radius: 5%;
 }
 
-#about-us-info {
+#about-us-info, #about-news-info {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-}
-
-#about-second {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 40%;
-}
-
-#about-news-container {
-    width: 300px;
-    height: 200px;
-    border: 1px solid rgba(165, 138, 3, 0.7);
-    padding: 3px;
-    border-radius: 5%;
 }
 
 #about-news-bg {
@@ -176,13 +167,6 @@ header nav {
     width: 300px;
     height: 200px;
     border-radius: 5%;
-}
-
-#about-news-info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
 }
 
 
@@ -229,6 +213,10 @@ header nav {
 
     #menu {
         justify-content: flex-end;
+    }
+
+    #about-box {
+        flex-direction: row;
     }
 
     #about-first {
