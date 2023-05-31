@@ -35,12 +35,12 @@ dark-sienna {
 
 body {
     font-family: Montserrat, sans-serif;
+    color: darkgray;
 }
 
 h1,
 h2 {
     font-family: 'Poiret One', sans-serif;
-    font-size: 250%;
     font-weight: 600;
     letter-spacing: 3px;
     color: rgba(63, 17, 17, 1);
@@ -48,6 +48,7 @@ h2 {
 
 a {
     text-decoration: none;
+    color: #8C2323;
 }
 
 /* header flexbox */
@@ -61,10 +62,10 @@ header {
 /* logo */
 
 #logo {
+    font-size: 180%;
     padding: 10px 10px 10px 20px;
     width: 100%;
     box-sizing: border-box;
-    min-width: 405px;
 }
 
 /* navigation bar */
@@ -78,12 +79,12 @@ header nav {
     justify-content: stretch;
     align-items: center;
     box-sizing: border-box;
-    min-width: 405px;
 }
 
 #menu li {
     list-style-type: none;
     padding: 10px 20px;
+    font-size: 80%;
 }
 
 .active {
@@ -104,21 +105,115 @@ header nav {
     height: 600px;
 }
 
+/* about */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#about h2 {
+    display: flex;
+    height: 20%;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 120%;
+    margin: 20px 0;
+}
+
+#about-first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+
+#about-us-container {
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgba(165, 138, 3, 0.7);
+    padding: 3px;
+    border-radius: 5%;
+}
+
+#about-us-bg {
+    background: url('../images/about-grapes.jpg') no-repeat center center;
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+#about-us-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#about-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+
+#about-news-container {
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgba(165, 138, 3, 0.7);
+    padding: 3px;
+    border-radius: 5%;
+}
+
+#about-news-bg {
+    background: url('../images/about-grapes.jpg') no-repeat center center;
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+#about-news-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
 /* media queries */
 /* generic */
-@media screen and (min-width: 500px) {
-
-    h1,
-    h2 {
-        font-family: 'Poiret One', sans-serif;
+@media screen and (min-width: 445px) {
+    #logo {
         font-size: 280%;
+    }
+
+    .active {
+        font-size: 120%;
+        font-weight: 600;
+    }
+
+    #menu li {
+        font-size: 100%;
+    }
+
+    #menu a:hover {
+        font-size: 120%;
+        font-weight: 600;
+    }
+
+    #about h2 {
+        font-size: 180%;
     }
 }
 
 /* header: logo and navigation */
 @media screen and (min-width: 900px) {
     header {
-        display: flex;
         flex-direction: row;
         align-items: center;
     }
@@ -133,5 +228,21 @@ header nav {
 
     #menu {
         justify-content: flex-end;
+    }
+
+    #about-first {
+        flex-direction: row;
+    }
+
+    #about-us-container {
+        margin: 0 0 10px 50px;
+    }
+
+    #about-second {
+        flex-direction: row-reverse;
+    }
+
+    #about-news-container {
+        margin: 0 50px 10px 0px;
     }
 }
