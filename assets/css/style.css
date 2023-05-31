@@ -76,6 +76,7 @@ header nav {
 #menu {
     display: flex;
     justify-content: stretch;
+    align-items: center;
     box-sizing: border-box;
     min-width: 405px;
 }
@@ -83,6 +84,16 @@ header nav {
 #menu li {
     list-style-type: none;
     padding: 10px 20px;
+}
+
+.active {
+    font-size: 120%;
+    font-weight: 600;
+}
+
+#menu a:hover {
+    font-size: 120%;
+    font-weight: 600;
 }
 
 /* hero image */
