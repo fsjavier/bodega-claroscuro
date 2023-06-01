@@ -22,7 +22,7 @@ dark-sienna {
 */
 
 
-/* Import font */
+/* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poiret+One&display=swap');
 
 /* generic rules */
@@ -44,50 +44,43 @@ h2 {
     font-weight: 600;
     letter-spacing: 3px;
     color: rgba(63, 17, 17, 1);
+    /* dark-sienna */
 }
 
 a {
     text-decoration: none;
-    color: #8C2323;
+    color: rgba(140, 35, 35, 1);
+    /* old-mandarin */
 }
 
 li {
     list-style-type: none;
 }
 
-/* header flexbox */
+/* header */
 
 header {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
 }
 
 /* logo */
 
 #logo {
-    font-size: 180%;
+    font-size: 154%;
     padding: 10px 10px 10px 20px;
-    width: 100%;
-    box-sizing: border-box;
 }
 
 /* navigation bar */
 
-header nav {
-    width: 100%;
-}
-
 #menu {
     display: flex;
-    justify-content: stretch;
     align-items: center;
-    box-sizing: border-box;
 }
 
 #menu li {
     padding: 10px 20px;
-    font-size: 80%;
+    font-size: 70%;
 }
 
 .active {
@@ -104,7 +97,6 @@ header nav {
 
 #hero-image {
     background: url('../images/hero-image.jpg') no-repeat center 55%;
-    width: 100%;
     height: 600px;
 }
 
@@ -120,14 +112,13 @@ header nav {
 #about-box {
     display: flex;
     flex-direction: column;
-    height: 20%;
     text-align: center;
     align-items: center;
     text-transform: uppercase;
     font-size: 120%;
     margin: 20px 0;
     padding: 10px;
-    background-color: rgba(165, 138, 3, 0.2);
+    background-color: rgba(165, 138, 3, 0.2); /* strong-mustard */
 }
 
 #about-box h2 {
@@ -139,7 +130,6 @@ header nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
     height: 40%;
 }
 
@@ -147,7 +137,7 @@ header nav {
 #about-news-container {
     width: 300px;
     height: 200px;
-    border: 1px solid rgba(165, 138, 3, 0.7);
+    border: 1px solid rgba(165, 138, 3, 0.7); /* strong-mustard */
     padding: 3px;
     border-radius: 5%;
 }
@@ -161,9 +151,6 @@ header nav {
 
 #about-us-info,
 #about-news-info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 20px;
 }
 
@@ -188,7 +175,6 @@ header nav {
     background-size: cover;
     height: 450px;
     margin-top: 30px;
-    font-weight: 600;
 }
 
 #winemaking h2 {
@@ -199,6 +185,7 @@ header nav {
 }
 
 #winemaking p {
+    font-weight: 600;
     color: white;
     width: 80%;
     text-align: center;
@@ -214,7 +201,7 @@ header nav {
 
 #winemaking a:hover {
     color: rgba(165, 138, 3, 1);
-    border: 2px solid rgba(165, 138, 3, 1);
+    border: 2px solid rgba(165, 138, 3, 1); /* strong-mustard */
 }
 
 /* footer */
@@ -251,19 +238,28 @@ hr {
 #social-media-icons {
     display: flex;
     font-size: 160%;
-    justify-content: center;
+    justify-content: space-around;
     padding-top: 30px;
 }
 
-#social-media-icons a {
-    padding: 0 2rem;
-}
 
 /* media queries */
-/* generic */
-@media screen and (min-width: 445px) {
+
+/* From S size phone (iPhone SE and similar) */
+@media screen and (min-width: 320px) {
     #logo {
-        font-size: 280%;
+        font-size: 180%;
+    }
+
+    #menu li {
+        font-size: 80%;
+    }
+}
+
+/* From S size phone (Galaxy S20 Ultra and similar) */
+@media screen and (min-width: 410px) {
+    #logo {
+        font-size: 260%;
     }
 
     .active {
@@ -285,11 +281,15 @@ hr {
     }
 }
 
-/* header: logo and navigation */
+/* From big tablets / small laptops size */
 @media screen and (min-width: 900px) {
     header {
         flex-direction: row;
         align-items: center;
+    }
+
+    #logo {
+        font-size: 280%;
     }
 
     header a {
@@ -329,7 +329,6 @@ hr {
     }
 
     footer {
-        display: flex;
         flex-direction: row;
     }
 
