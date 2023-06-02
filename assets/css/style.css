@@ -114,15 +114,33 @@ header {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    justify-content: space-evenly;
+    width: 96%;
     text-transform: uppercase;
-    font-size: 120%;
     margin: 20px 0;
-    padding: 10px;
-    background-color: rgba(165, 138, 3, 0.2); /* strong-mustard */
+    padding: 10px 0;
+    background-color: rgba(165, 138, 3, 0.2);
+    /* strong-mustard */
+    box-shadow: 5px 5px 5px 5px rgba(165, 138, 3, 0.4);
 }
 
 #about-box h2 {
     padding: 20px;
+}
+
+#about-box a {
+    color: rgba(63, 17, 17, 1);
+    /* dark-sienna */
+    border: 2px solid rgba(63, 17, 17, 1);
+    /* dark-sienna */
+    border-radius: 2px;
+    padding: 10px;
+}
+
+#about-box a:hover {
+    color: white;
+    background-color: rgba(63, 17, 17, 1);
+    /* dark-sienna */
 }
 
 #about-first,
@@ -130,14 +148,15 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 40%;
+    width: 96%
 }
 
 #about-us-container,
 #about-news-container {
     width: 300px;
     height: 200px;
-    border: 1px solid rgba(165, 138, 3, 0.7); /* strong-mustard */
+    border: 1px solid rgba(165, 138, 3, 0.7);
+    /* strong-mustard */
     padding: 3px;
     border-radius: 5%;
 }
@@ -201,7 +220,8 @@ header {
 
 #winemaking a:hover {
     color: rgba(165, 138, 3, 1);
-    border: 2px solid rgba(165, 138, 3, 1); /* strong-mustard */
+    border: 2px solid rgba(165, 138, 3, 1);
+    /* strong-mustard */
 }
 
 /* footer */
