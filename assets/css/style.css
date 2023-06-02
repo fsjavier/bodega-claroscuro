@@ -39,7 +39,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Poiret One', sans-serif;
     font-weight: 600;
     letter-spacing: 3px;
@@ -264,10 +265,29 @@ hr {
     padding-top: 30px;
 }
 
+/* our wines*/
+
+.wines-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+
+.wines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wine-bottle {
+    height: 270px;
+    width: 180px;
+}
 
 /* media queries */
 
-/* From S size phone (iPhone SE and similar) */
+/* from S size phone (iPhone SE and similar) */
 @media screen and (min-width: 320px) {
     #logo {
         font-size: 180%;
@@ -294,7 +314,7 @@ hr {
     }
 }
 
-/* From S size phone (Galaxy S20 Ultra and similar) */
+/* from S size phone (Galaxy S20 Ultra and similar) */
 @media screen and (min-width: 410px) {
     #logo {
         font-size: 260%;
@@ -317,9 +337,18 @@ hr {
     #about h2 {
         font-size: 180%;
     }
+
+    .wines {
+        flex-direction: row;
+    }
+
+    .wine-bottle {
+        height: 405px;
+        width: 270px;
+    }
 }
 
-/* From big tablets / small laptops size */
+/* from big tablets / small laptops size */
 @media screen and (min-width: 900px) {
     header {
         flex-direction: row;
@@ -380,5 +409,13 @@ hr {
 
     #opening-hours {
         width: 50%;
+    }
+
+    .wines-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .wines {
+        flex-direction: row;
     }
 }
