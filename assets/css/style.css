@@ -329,6 +329,7 @@ hr {
 .wine-text {
     display: flex;
     flex-direction: column;
+    padding-top: 1rem;
 }
 
 .wine-text>ul li {
@@ -501,5 +502,14 @@ hr {
 
     .wines {
         flex-direction: row;
+    }
+
+    .wine-bottle {
+        height: 450px;
+        width: 300px;
+    }
+
+    .wine-text {
+        font-size: 95%;
     }
 }
