@@ -273,9 +273,10 @@ hr {
 }
 
 #red-wines-header {
+    font-size: 180%;
     background-color: rgba(63, 17, 17, 0.9);
     /* dark-sienna */
-    padding: 20px 0px 20px 20px;
+    padding: 2.5rem;
     color: white;
     text-transform: uppercase;
     box-shadow: 5px 5px 5px 5px rgba(63, 17, 17, 0.4);
@@ -284,9 +285,10 @@ hr {
 }
 
 #white-wines-header {
+    font-size: 180%;
     background-color: rgba(165, 138, 3, 0.2);
     /* trong mustard */
-    padding: 20px 0px 20px 20px;
+    padding: 2.5rem;
     text-transform: uppercase;
     box-shadow: 5px 5px 5px 5px rgba(165, 138, 3, 0.4);
     /* strong mustard */
