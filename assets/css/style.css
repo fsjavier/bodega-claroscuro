@@ -307,20 +307,10 @@ hr {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.red-wines {
     background-color: rgba(63, 17, 17, 0.01);
     /* dark-sienna */
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px rgba(63, 17, 17, 0.03);
-}
-
-.white-wines {
-    background-color: rgba(165, 138, 3, 0.01);
-    /* strong mustard */
-    border-radius: 5px;
-    box-shadow: 1px 1px 1px 1px rgba(165, 138, 3, 0.03);
 }
 
 .wine-bottle {
