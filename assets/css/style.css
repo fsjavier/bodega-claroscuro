@@ -267,6 +267,32 @@ hr {
 
 /* our wines*/
 
+.wines-section {
+    width: 96%;
+    margin: auto;
+}
+
+#red-wines-header {
+    background-color: rgba(63, 17, 17, 0.9);
+    /* dark-sienna */
+    padding: 20px 0px 20px 20px;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 5px 5px rgba(63, 17, 17, 0.4);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#white-wines-header {
+    background-color: rgba(165, 138, 3, 0.2);
+    /* dark-sienna */
+    padding: 20px 0px 20px 20px;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 5px 5px rgba(165, 138, 3, 0.4);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .wines-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -283,6 +309,20 @@ hr {
 .wine-bottle {
     height: 270px;
     width: 180px;
+}
+
+.wine-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.wine-pricing {
+    border: 1px solid rgba(63, 17, 17, 1);
+    /* dark-sienna */
+    place-self: start;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
 }
 
 /* media queries */
