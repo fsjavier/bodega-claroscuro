@@ -334,15 +334,29 @@ hr {
 .wine-text>ul li {
     padding-bottom: 1rem;
     width: 95%;
+    margin: auto;
+}
+
+.wine-pricing-container {
+    width: 95%;
+    margin: 1rem auto;
 }
 
 .wine-pricing {
+    max-width: fit-content;
+    margin: auto;
+}
+
+.wine-pricing ul {
     border: 1px solid rgba(63, 17, 17, 1);
     /* dark-sienna */
-    place-self: start;
-    padding: 1rem;
+    padding: 1rem 2rem;
     border-radius: 5px;
     margin-bottom: 1rem;
+}
+
+.wine-pricing>ul li {
+    line-height: 1.5rem;
 }
 
 /* media queries */
@@ -397,7 +411,10 @@ hr {
     #about h2 {
         font-size: 180%;
     }
+}
 
+/* from big tablets / small laptops size */
+@media screen and (min-width: 600px) {
     .wines {
         flex-direction: row;
     }
@@ -405,6 +422,10 @@ hr {
     .wine-bottle {
         height: 405px;
         width: 270px;
+    }
+
+    .wine-pricing {
+        margin: 0;
     }
 }
 
@@ -470,7 +491,10 @@ hr {
     #opening-hours {
         width: 50%;
     }
+}
 
+/* from big tablets / small laptops size */
+@media screen and (min-width: 1200px) {
     .wines-grid {
         grid-template-columns: repeat(2, 1fr);
     }
