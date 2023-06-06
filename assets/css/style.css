@@ -352,7 +352,7 @@ hr {
     line-height: 1.5rem;
 }
 
-/* Contact */
+/* contact page */
 
 #contact-page {
     width: 96%;
@@ -372,6 +372,7 @@ hr {
     text-align: center;
 }
 
+/* contact form */
 
 #contact {
     display: flex;
@@ -443,6 +444,33 @@ button[type=submit] {
 button[type=submit]:hover {
     background-color: rgba(63, 17, 17, 0.9);
     color: white;
+}
+
+/* location */
+
+#location {
+    background-color: rgba(165, 138, 3, 0.05);
+    box-shadow: 1px 1px 1px 1px rgba(165, 138, 3, 0.05);
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+#location h3 {
+    margin-bottom: 1rem;
+}
+
+#location-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#location-container p {
+    margin-bottom: 1rem;
+}
+
+#map {
+    width: 100%;
 }
 
 /* media queries */
