@@ -352,9 +352,31 @@ hr {
     line-height: 1.5rem;
 }
 
+/* Contact */
+
+#contact-page {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    margin: auto;
+}
+
+#contact-header {
+    font-size: 180%;
+    background-color: rgba(165, 138, 3, 0.2);
+    /* trong mustard */
+    padding: 2.5rem;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 5px 5px rgba(165, 138, 3, 0.4);
+    /* strong mustard */
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
 /* media queries */
 
 /* from S size phone (iPhone SE and similar) */
+
 @media screen and (min-width: 320px) {
     #logo {
         font-size: 180%;
@@ -382,6 +404,7 @@ hr {
 }
 
 /* from S size phone (Galaxy S20 Ultra and similar) */
+
 @media screen and (min-width: 410px) {
     #logo {
         font-size: 260%;
@@ -407,6 +430,7 @@ hr {
 }
 
 /* from big tablets / small laptops size */
+
 @media screen and (min-width: 600px) {
     .wines {
         flex-direction: row;
@@ -423,6 +447,7 @@ hr {
 }
 
 /* from big tablets / small laptops size */
+
 @media screen and (min-width: 900px) {
     header {
         flex-direction: row;
@@ -487,6 +512,7 @@ hr {
 }
 
 /* from big tablets / small laptops size */
+
 @media screen and (min-width: 1200px) {
     .wines-grid {
         grid-template-columns: repeat(2, 1fr);
