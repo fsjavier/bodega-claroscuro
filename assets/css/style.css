@@ -97,7 +97,7 @@ header {
 /* hero image */
 
 #hero-image {
-    background: url('../images/hero-image.jpg') no-repeat center 55%;
+    background: url('../images/hero-image.webp') no-repeat center 55%;
     height: 600px;
 }
 
@@ -191,7 +191,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url('../images/winemaking.jpg') no-repeat center center;
+    background: url('../images/wine-cellar.webp') no-repeat center center;
     background-color: rgba(63, 17, 17, 0.7);
     background-blend-mode: darken;
     background-size: cover;
@@ -360,7 +360,7 @@ hr {
 }
 
 #contact-header {
-    font-size: 180%;
+    font-size: 165%;
     background-color: rgba(63, 17, 17, 0.9);
     /* dark-sienna */
     padding: 2.5rem;
@@ -505,6 +505,10 @@ button[type=submit]:hover {
     #about-news-bg {
         width: 300px;
         height: 200px;
+    }
+
+    #contact-header {
+        font-size: 180%;
     }
 }
 
