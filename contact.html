@@ -42,32 +42,35 @@
             <form action="https://formdump.codeinstitute.net/" method="POST" id="contact-form">
                 <div id="contact-info">
                     <p>
-                        If you want to know more about our wine selection, our guided tours through our vineyard and wine cellar, or immerse yourself in unforgettable wine tasting sessions, you've come to the right place.
+                        If you want to know more about our wine selection, our guided tours through our vineyard and
+                        wine cellar, or immerse yourself in unforgettable wine tasting sessions, you've come to the
+                        right place.
                     </p>
-                    <p> 
-                        We also value your feedback and suggestions - If you have any comments or ideas to enhance your experience or our offerings, we'd love to hear from you.
+                    <p>
+                        We also value your feedback and suggestions - If you have any comments or ideas to enhance your
+                        experience or our offerings, we'd love to hear from you.
                     </p>
                 </div>
                 <div id="contact-details">
 
                     <div class="input-field input-field-text">
-                        <label for="fname">First Name</label>
+                        <label for="fname">First Name <span class="required-field">(required)</span></label>
                         <input type="text" id="fname" name="first_name" class="input-user" required>
                     </div>
 
                     <div class="input-field input-field-text">
-                        <label for="lname">Last Name</label>
+                        <label for="lname">Last Name <span class="required-field">(required)</span></label>
                         <input type="text" id="lname" name="last_name" class="input-user" required>
                     </div>
 
                     <div class="input-field input-field-text">
-                        <label for="email">Email Address</label>
+                        <label for="email">Email Address <span class="required-field">(required)</span></label>
                         <input type="email" id="email" name="email" class="input-user" required>
                     </div>
 
                     <div class="input-field input-field-text">
                         <label for="message">Message</label>
-                        <textarea name="message" id="message" class="input-user" required></textarea>
+                        <textarea name="message" id="message" class="input-user"></textarea>
                     </div>
 
                     <div class="input-field">
@@ -88,18 +91,21 @@
                             We are located on VP-9105 road, just a 5-minute drive north of Olmedo.
                         </p>
                         <p>
-                            Our shop is open from Monday to Thursday, 9 AM to 6 PM, and on Friday and Saturday from 10 AM to 8 PM.
+                            Our shop is open from Monday to Thursday, 9 AM to 6 PM, and on Friday and Saturday from 10
+                            AM to 8 PM.
                         </p>
 
                         <p>
-                            Please note that our guided tours require advance booking. If you're interested in booking a tour, kindly utilize the contact form or call us directly.
+                            Please note that our guided tours require advance booking. If you're interested in booking a
+                            tour, kindly utilize the contact form.
                         </p>
                     </div>
 
-                    <div>
+                    <div id="map-container">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2996.4395691087702!2d-4.709681288270544!3d41.321053999987235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDE5JzE1LjgiTiA0wrA0MicyNS42Ilc!5e0!3m2!1sen!2sat!4v1686041502709!5m2!1sen!2sat"
-                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                            id="map"></iframe>
                     </div>
                 </div>
             </div>
