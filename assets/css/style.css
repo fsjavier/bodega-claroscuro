@@ -86,8 +86,8 @@ header a {
 }
 
 #menu li {
-    padding: 10px 20px;
-    font-size: 70%;
+    padding: 1rem;
+    font-size: 82%;
 }
 
 .active {
@@ -104,7 +104,7 @@ header a {
 
 #hero-image {
     background: url('../images/hero-image.webp') no-repeat center 55%;
-    height: 600px;
+    height: 75vh;
 }
 
 /* about */
@@ -491,10 +491,6 @@ button[type=submit]:hover {
 @media screen and (min-width: 320px) {
     #logo {
         font-size: 180%;
-    }
-
-    #menu li {
-        font-size: 80%;
     }
 
     #about-us-container,
