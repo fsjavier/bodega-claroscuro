@@ -67,8 +67,13 @@ header {
 
 /* logo */
 
+header a {
+    width: max-content;
+}
+
 #logo {
     font-size: 154%;
+    width: max-content;
     padding: 10px 10px 10px 20px;
 }
 
@@ -77,6 +82,7 @@ header {
 #menu {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 #menu li {
@@ -567,12 +573,8 @@ button[type=submit]:hover {
         font-size: 280%;
     }
 
-    header a {
-        width: 50%;
-    }
-
     header nav {
-        width: 50%;
+        width: 100%;
     }
 
     #menu {
