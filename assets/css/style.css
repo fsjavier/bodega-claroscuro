@@ -282,7 +282,7 @@ hr {
     font-size: 180%;
     background-color: rgba(63, 17, 17, 0.9);
     /* dark-sienna */
-    padding: 2.5rem;
+    padding: 1.5rem;
     color: white;
     text-transform: uppercase;
     box-shadow: 5px 5px 5px 5px rgba(63, 17, 17, 0.4);
@@ -294,7 +294,7 @@ hr {
     font-size: 180%;
     background-color: rgba(165, 138, 3, 0.2);
     /* trong mustard */
-    padding: 2.5rem;
+    padding: 1.5rem;
     text-transform: uppercase;
     box-shadow: 5px 5px 5px 5px rgba(165, 138, 3, 0.4);
     /* strong mustard */
@@ -493,6 +493,10 @@ button[type=submit]:hover {
         font-size: 180%;
     }
 
+    #menu li {
+        font-size: 90%;
+    }
+
     #about-us-container,
     #about-news-container {
         width: 300px;
@@ -514,7 +518,7 @@ button[type=submit]:hover {
     }
 }
 
-/* from S size phone (Galaxy S20 Ultra and similar) */
+/* from L size phone (Galaxy S20 Ultra and similar) */
 
 @media screen and (min-width: 410px) {
     #logo {
@@ -615,6 +619,11 @@ button[type=submit]:hover {
 
     #opening-hours {
         width: 50%;
+    }
+
+    #red-wines-header,
+    #white-wines-header {
+        padding: 2rem;
     }
 
     #contact-form {
