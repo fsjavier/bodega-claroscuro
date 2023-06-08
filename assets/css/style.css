@@ -374,7 +374,7 @@ hr {
     padding: 1.5rem;
     color: white;
     text-transform: uppercase;
-    box-shadow: 5px 5px 5px 5px rgba(63, 17, 17, 0.4);
+    box-shadow: 0px 0px 6px -1px rgb(63, 17, 17);
     /* dark-sienna */
     margin-bottom: 2rem;
     text-align: center;
