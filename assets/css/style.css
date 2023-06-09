@@ -74,7 +74,7 @@ header a {
 #logo {
     font-size: 167%;
     width: max-content;
-    padding: 0.3rem;
+    padding: 0.3rem 0.4rem;
 }
 
 /* navigation bar */
@@ -496,7 +496,6 @@ button[type=submit]:hover {
     }
 
     #menu li {
-        padding: 0.7rem;
         font-size: 100%;
     }
 
@@ -527,6 +526,10 @@ button[type=submit]:hover {
     #logo {
         font-size: 260%;
         padding: 1rem;
+    }
+
+    #menu li {
+        padding: 0.5rem 1rem;
     }
 
     .active {
