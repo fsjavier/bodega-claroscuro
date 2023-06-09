@@ -98,6 +98,22 @@ The website serves as an online presence to engage wine enthusiasts, offering th
 
 ## Technologies Used
 
+### Languages
+
+* HTML for the sctructure of the website.
+* CSS for the style.
+
+### Frameworks and tools
+
+* [Codeanywhere](https://codeanywhere.com) was the IDE used to develop the website.
+* Git was used for version control.
+* [GitHub](https://github.com) is used to host the code and deploy the website.
+* [Balsamiq](https://balsamiq.com/wireframes) was used to create the wireframes.
+* [Google Fonts](https://fonts.google.com) was used to import the Montserrat and Poiret One fonts.
+* [Font Awesome](https://fontawesome.com) was used to import the icons.
+* [TinyPNG](https://tinypng.com) was used to compress the images.
+* [Convertio](https://convertio.co) was used to convert the images to webP.
+
 ## Testing
 
 ### Validator Testing
