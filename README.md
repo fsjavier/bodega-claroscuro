@@ -214,7 +214,23 @@ All links have been tested to ensure they load the right page without errors.
 
 #### Responsiveness
 
+All pages have been tested for responsiveness with Google Chrome Developer Tools on screens from 280px, making sure the content adjusts correctly on all screen sizes.
+
+On physical device, it has been tested on iPhone 13 in vertical and horizontal orientation.
+
+#### Browsers compatibility
+
+The website has been tested in the following browsers on desktop, without finding any issues:
+
+* Chrome
+* Safari
+* Firefox
+* Opera
+* Edge
+
 ### Bugs
+
+Some of the wine bottle images have incorrect aspect ratio, so in very big screen they could look misaligned. This will be fixed in the future replacing them for better images.
 
 ## Deployment
 
