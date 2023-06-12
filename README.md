@@ -177,9 +177,35 @@ No errors were found, the only alert was due to redundant links. This was due to
 | New /<br>Returning | Find out how to contact the winery. | Option 1: Go to "Contact" on the top navigation bar.<br><br> Option 2: Scroll down to "Get in touch" and click on "Request information".<br><br> From there, fill out the contact form. | Option 1: Navigation bar. <br><br> Option 2: Get in touch section.<br><br>Contact form. | Works as expected. |
 | Returning | Stay updated on any changes or news | Option 1: Scroll down to "The latest from the vineyard section".<br><br> Option 2: Request to receive news per email through the contact page.<br><br> From there, fill out the contact form, checking the box. | Option 1: The latest from the vineyard section. <br><br> Option 2: Get in touch section.<br><br>Contact form. | Works as expected. |
 
+#### Functional testing
+
+All links have been tested to ensure they load the right page without errors.
+
+* Navigation bar
+  * The link in the logo links to the homepage
+  * The menu links navigate to the "Home", "Our wines" and "Contact" pages respectively.
+  * The active page is highlighted with a bigger font and a glass of wine icon.
+  * Hovering over an inactive page in the menu increases its size.
+
+* Footer
+  * All socia media links open its respective page (Facebook, Twitter, Youtube, Instagram) in a new tab.
+
+* Hovering over the link with the text "Discover our wine selection" in "The latest from the vineyard" section higlights it changing its color. Clicking on it loads "Our wines" page.
+
+* Hovering over the link with the text "Request Information" in "Get in touch" section higlights it changing its color. Clicking on it loads "Our wines" page.
+
+* Form in Contact page
+  * The first three fields are required and the form can't be submitted unless they are filled out.
+  * Sending a form loads the "Thank you" page.
+
+* The embedded Google Map is displayed correctly and can be interacted with.
+
+#### Responsiveness
+
 ### Bugs
 
 ## Deployment
+
 
 ## Credits
 
