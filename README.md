@@ -247,24 +247,19 @@ The project will now of been cloned on your local machine for use.
 
 ### Media
 
-hero-image: Photo by [Boudewijn Boer](<https://unsplash.com/@boudewijnboer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText>) on [Unsplash](<https://unsplash.com/photos/qT515JdZNy8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText>)
-
-about-grapes: Photo by [Nacho Domínguez Argenta](https://unsplash.com/pt-br/@nachoargenta?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/QVdFEzkAkmg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
-wine-bottle: Photo by [Jadon Barnes](https://unsplash.com/@jadonbarnes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](Unsplash)
-
-wine-cellar -> Photo by [Oleksandr Gamaniuk](https://unsplash.com/@oleksander_gamaniuk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash(https://unsplash.com/photos/pKfpCKgkLwo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
-red-wine-1: Image by [mkt102](https://pixabay.com/users/mkt102-1390883/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1010656) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1010656)
-red-wine-2: Image by [mkt102](https://pixabay.com/users/mkt102-1390883/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1010657) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1010657)
-red-wine-3: Image by [Christo Anestev](https://pixabay.com/users/anestiev-2736923/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2041225) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2041225)
-red-wine-4: Image by [Christo Anestev](https://pixabay.com/users/anestiev-2736923/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2041226) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2041226)
-
-white-wine-1: Image by [Alexis León](https://pixabay.com/users/alexisleon-1398503/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=939640) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=939640)
-white-wine-2: Image by [avgustintomaz](https://pixabay.com/users/avgustintomaz-15252385/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4981815) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4981815)
-white-wine-3: Image by [Christo Anestev](https://pixabay.com/users/anestiev-2736923/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1839024) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1839024)
-white-wine-4: Image by [Gábor Adonyi](https://pixabay.com/users/adonyig-4265448/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3546566) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3546566)
+* hero-image: Photo by [Boudewijn Boer](<https://unsplash.com/@boudewijnboer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText>) on [Unsplash](<https://unsplash.com/photos/qT515JdZNy8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText>)
+* about-grapes: Photo by [Nacho Domínguez Argenta](https://unsplash.com/pt-br/@nachoargenta?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/QVdFEzkAkmg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* wine-bottle: Photo by [Jadon Barnes](https://unsplash.com/@jadonbarnes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](Unsplash)
+* wine-cellar -> Photo by [Oleksandr Gamaniuk](https://unsplash.com/@oleksander_gamaniuk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash(https://unsplash.com/photos/pKfpCKgkLwo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+* red-wine-1: Image by [mkt102](https://pixabay.com/users/mkt102-1390883/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1010656) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1010656)
+* red-wine-2: Image by [mkt102](https://pixabay.com/users/mkt102-1390883/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1010657) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1010657)
+* red-wine-3: Image by [Christo Anestev](https://pixabay.com/users/anestiev-2736923/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2041225) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2041225)
+* red-wine-4: Image by [Christo Anestev](https://pixabay.com/users/anestiev-2736923/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2041226) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2041226)
+* white-wine-1: Image by [Alexis León](https://pixabay.com/users/alexisleon-1398503/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=939640) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=939640)
+* white-wine-2: Image by [avgustintomaz](https://pixabay.com/users/avgustintomaz-15252385/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4981815) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4981815)
+* white-wine-3: Image by [Christo Anestev](https://pixabay.com/users/anestiev-2736923/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1839024) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1839024)
+* white-wine-4: Image by [Gábor Adonyi](https://pixabay.com/users/adonyig-4265448/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3546566) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3546566)
 
 ### Acknowledgments
 
-Thank you to my mentor Gareth McGirr for his guidance, feedback and resources.
+Thank you to my mentor Gareth McGirr for his guidance, feedback and resources provided.
