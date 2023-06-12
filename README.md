@@ -9,11 +9,10 @@ The website serves as an online presence to engage wine enthusiasts, offering th
 ## User Goals
 
 * As a new user, I want to:
-  1. Know which wines are produced and their characteristics.
+  1. Know which wines are produced and their characteristics and price.
   2. Learn about the winemaking process.
-  3. Know the pricing and how to purchase them.
-  4. Discover the location and opening times.
-  5. Find out how to contact them.
+  3. Discover the location and opening times.
+  4. Find out how to contact them.
 
 * As a returning user, I want to:
   1. Stay updated on any changes or news.
@@ -171,9 +170,13 @@ No errors were found, the only alert was due to redundant links. This was due to
 
 | Type of user | Goal | Steps | Feature | Outcome |
 |--------------|------|-------|---------|---------|
-|New| Know which wines are produced and their characteristics. | Option 1: Go to "Our wines" on the top navigation bar <br> Option 2: Scroll down to "The latest from the vineyard" and click on "Discover our wine selection" | Option1: Navigation bar <br> Option 2: The latest from the vineyard section | Goes to "Our wines" page. It loads as expected |
-|--------------|------|-------|---------|---------|
+| New | Know which wines are produced, their characteristics and pricing. | Option 1: Go to "Our wines" on the top navigation bar.<br><br> Option 2: Scroll down to "The latest from the vineyard" and click on "Discover our wine selection". | Option 1: Navigation bar. <br><br> Option 2: The latest from the vineyard section. | Goes to "Our wines" page. It loads as expected. |
 
+| New | Learn about the winemaking process | At the moment this can only be done requesting a tour.<br><br>Option 1: Go to "Contact" on the top navigation bar.<br><br> Option 2: Scroll down to "Get in touch" and click on "Request information"<br><br> From there, fill out the contact form. | Option 1: Navigation bar. <br><br> Option 2: Get in touch section.<br><br>Contact form. | Works as expected .|
+
+| New | Discover the location and opening times | Opening times are located at the footer of each page and on the "contact page".<br><br>Option 1: Go to "Contact" on the top navigation bar.<br><br> Option 2: Scroll down to "Get in touch" and click on "Request information"<br><br>See "Where to find us section" | Option 1: Navigation bar. <br><br> Option 2: Get in touch section.<br><br>Where to find us section. | Works as expected. |
+
+| New | Find out how to contact the winery | Option 1: Go to "Contact" on the top navigation bar.<br><br> Option 2: Scroll down to "Get in touch" and click on "Request information"<br><br> From there, fill out the contact form. | Option 1: Navigation bar. <br><br> Option 2: Get in touch section.<br><br>Contact form. | Works as expected. |
 
 ### Bugs
 
