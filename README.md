@@ -118,6 +118,28 @@ The website serves as an online presence to engage wine enthusiasts, offering th
 
 ### Validator Testing
 
+* HTML
+
+All pages passed without errors or warning through the the W3C Markup Validation Service.
+
+    * Home page
+
+    ![Home page HTML validator result](documentation/tests/test_html_home.png)
+
+    * Our wines page
+
+    ![Our wines page HTML validator result](documentation/tests/test_html_our-wines.png)
+
+    * Contact page
+
+    ![Contact page HTML validator result](documentation/tests/test_html_contact.png)
+
+* CSS
+
+No errors were found through the W3C Jigsaw CSS Validation Service. The report can be found [here](documentation/tests/test_css_report.pdf)
+
+![W3C CSS validator result](documentation/tests/test_css.png)
+
 ### Accessibility
 
 ### Bugs
