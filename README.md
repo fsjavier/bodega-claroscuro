@@ -8,6 +8,16 @@ The website serves as an online presence to engage wine enthusiasts, offering th
 
 ![Mockup](documentation/readme_images/mockup.png)
 
+## Table of Contents
+
+* [User Goals](#user-goals)
+* [Features](#features)
+* [Design](#design)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+
 ## User Goals
 
 * As a new user, I want to:
@@ -241,7 +251,7 @@ The project will now of been cloned on your local machine for use.
 * Approach on how to apply Flexbox from tutorials by:
   * [Dee MC](https://www.youtube.com/watch?v=2uvyx4YK_rQ)
   * [Kevin Powell](https://www.youtube.com/playlist?list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd)
-* Approach on how to apply Grid: from tutorial by:
+* Approach on how to apply Grid from tutorial by:
   * [Kevin Powell](https://www.youtube.com/playlist?list=PL4-IK0AVhVjPv5tfS82UF_iQgFp4Bl998)
 * Inspiration for background blend mode from [W3Schools](https://www.w3schools.com/cssref/pr_background-blend-mode.php)
 
