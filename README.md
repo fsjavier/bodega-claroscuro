@@ -118,29 +118,51 @@ The website serves as an online presence to engage wine enthusiasts, offering th
 
 ### Validator Testing
 
-* HTML
+#### HTML
 
 All pages passed without errors or warning through the the W3C Markup Validation Service.
 
-    * Home page
+* Home page
 
-    ![Home page HTML validator result](documentation/tests/test_html_home.png)
+![Home page HTML validator result](documentation/tests/test_html_home.png)
 
-    * Our wines page
+* Our wines page
 
-    ![Our wines page HTML validator result](documentation/tests/test_html_our-wines.png)
+![Our wines page HTML validator result](documentation/tests/test_html_our-wines.png)
 
-    * Contact page
+* Contact page
 
-    ![Contact page HTML validator result](documentation/tests/test_html_contact.png)
+![Contact page HTML validator result](documentation/tests/test_html_contact.png)
 
-* CSS
+#### CSS
 
-No errors were found through the W3C Jigsaw CSS Validation Service. The report can be found [here](documentation/tests/test_css_report.pdf)
+No errors were found through the W3C Jigsaw CSS Validation Service. The report can be found [here](documentation/tests/test_css_report.pdf).
 
 ![W3C CSS validator result](documentation/tests/test_css.png)
 
 ### Accessibility
+ 
+#### Lighthouse
+
+Lighthouse from Google Chrome Developer Tools was used to test performance and accessibility.
+    
+* Home
+    
+![Home page Lighthouse report](documentation/tests/lighthouse_home.png)
+
+* Our wines
+
+![Our wines page Lighthouse report](documentation/tests/lighthouse_our-wines.png)
+
+* Contact
+
+![Contact page Lighthouse report](documentation/tests/lighthouse_contact.png)
+  
+#### Wave WebAIM
+
+The WAVE WebAIM web accessibility tool was used during the dvelopment and for final testing of the website to check there were no accessibility problems.
+
+No errors were found, the only alert was due to redundant links. This was due to having the same links in the navigation bar and some other parts of the website (e.g. the link to home in the logo.).
 
 ### Bugs
 
