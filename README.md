@@ -45,7 +45,8 @@ The website serves as an online presence to engage wine enthusiasts, offering th
 
 * Get in touch section
   * Here users are informed about the possibility of visiting the winery and are encouraged to contact with the call to action "Request information"
- ![Vineyard](documentation/readme_images/get_in_touch.png)
+
+![Vineyard](documentation/readme_images/get_in_touch.png)
 
 * Footer
   * Like with the navigation bar, its design is responsive and consistent in all pages.
@@ -163,6 +164,16 @@ Lighthouse from Google Chrome Developer Tools was used to test performance and a
 The WAVE WebAIM web accessibility tool was used during the dvelopment and for final testing of the website to check there were no accessibility problems.
 
 No errors were found, the only alert was due to redundant links. This was due to having the same links in the navigation bar and some other parts of the website (e.g. the link to home in the logo.).
+
+### Manual Testing
+
+#### User goals fulfillment
+
+| Type of user | Goal | Steps | Feature | Outcome |
+|--------------|------|-------|---------|---------|
+|New| Know which wines are produced and their characteristics. | Option 1: Go to "Our wines" on the top navigation bar <br> Option 2: Scroll down to "The latest from the vineyard" and click on "Discover our wine selection" | Option1: Navigation bar <br> Option 2: The latest from the vineyard section | Goes to "Our wines" page. It loads as expected |
+|--------------|------|-------|---------|---------|
+
 
 ### Bugs
 
