@@ -33,6 +33,10 @@ dark-sienna {
     border: 0;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: Montserrat, sans-serif;
     color: black;
@@ -515,6 +519,29 @@ button[type=submit]:hover {
     color: rgb(63, 17, 17);
 }
 
+/* Contact confirmation */
+
+#body-confirmation {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#contact-confirmation {
+    flex-grow: 1;
+}
+
+#contact-confirmation div {
+    position: relative;
+    top: 30%;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+#contact-confirmation div h2 {
+    padding-bottom: 2rem;
+}
+
 /* media queries */
 
 /* from S size phone (iPhone SE and similar) */
@@ -704,6 +731,10 @@ button[type=submit]:hover {
 
     #bg-404 {
         height: 91vh;
+    }
+
+    #contact-confirmation div {
+        font-size: 120%;
     }
 }
 
