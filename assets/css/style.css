@@ -515,7 +515,7 @@ button[type=submit]:hover {
     padding-bottom: 2rem
 }
 
-#error-text a:hover {
+.generic-link:hover {
     color: rgb(63, 17, 17);
 }
 
@@ -539,6 +539,10 @@ button[type=submit]:hover {
 }
 
 #contact-confirmation div h2 {
+    padding-bottom: 2rem;
+}
+
+#contact-confirmation div p {
     padding-bottom: 2rem;
 }
 
