@@ -84,7 +84,24 @@ The website serves as an online presence to engage wine enthusiasts, offering th
 
 ![Contact](documentation/readme_images/contact.png)
 
+* Submitting successfully the contact form loads the contact-confirmation.html page, where the user gets confirmation of submission and can navigate back to the Home page.
+
 * Navigation Bar and Footer described above.
+
+![Contact confirmation](documentation/readme_images/contact-confirmation.png)
+
+### 404 page
+
+* A custom 404 page will be displayed if the users tries to navigate to a page that can't be loaded.
+* It maintains the look and feel of the website and provides users with the ability to navigate back through links.
+
+![404 page](documentation/readme_images/404-page.png)
+
+### Favicon
+
+* A site wide favicon provides an image with the look of the website in the tabs header, allowing users to easily find it among several open tabs.
+
+![favicon](documentation/readme_images/favicon.png)
 
 ### Features left to implement
 
