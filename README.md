@@ -39,6 +39,7 @@ The website serves as an online presence to engage wine enthusiasts, offering th
 * Navigation Bar
   * The navigation bar is present in all pages. It keeps always the same position for consistency and to make it easier for user to navigate the website.
   * It includes the logo (clickable, linking to the home page) and links to "Home", "Oud wines" and "Contact". It's responsive, on wide screen the logo is on the left side and the navigation bar on the right, while on smaller screens the navigation bar moves under the logo.
+  * It's implemented in all pages.
 
 ![Logo and navigation](documentation/readme_images/header.png)
 
@@ -62,6 +63,7 @@ The website serves as an online presence to engage wine enthusiasts, offering th
 * Footer
   * Like with the navigation bar, its design is responsive and consistent in all pages.
   * It includes the shop opening hours and the links to social media, which open in a new tab.
+  * It's implemented in all pages except the 404 page.
 
 ![Vineyard](documentation/readme_images/footer.png)
 
@@ -73,8 +75,6 @@ The website serves as an online presence to engage wine enthusiasts, offering th
 
 ![Our wines](documentation/readme_images/our_wines.png)
 
-* Navigation Bar and Footer described above.
-
 ### Contact
 
 * This page is divided in two parts: a contact form and the location.
@@ -85,8 +85,6 @@ The website serves as an online presence to engage wine enthusiasts, offering th
 ![Contact](documentation/readme_images/contact.png)
 
 * Submitting successfully the contact form loads the contact-confirmation.html page, where the user gets confirmation of submission and can navigate back to the Home page.
-
-* Navigation Bar and Footer described above.
 
 ![Contact confirmation](documentation/readme_images/contact-confirmation.png)
 
@@ -143,6 +141,7 @@ The website serves as an online presence to engage wine enthusiasts, offering th
 * [Font Awesome](https://fontawesome.com) was used to import the icons.
 * [TinyPNG](https://tinypng.com) was used to compress the images.
 * [Convertio](https://convertio.co) was used to convert the images to webP.
+* [Favicon](https://favicon.io/) to create the favicon files and links.
 
 ## Testing
 
@@ -211,7 +210,7 @@ No errors were found, the only alert was due to redundant links. This was due to
 All links have been tested to ensure they load the right page without errors.
 
 * Navigation bar
-  * The link in the logo links to the homepage
+  * The link in the logo links to the Home page
   * The menu links navigate to the "Home", "Our wines" and "Contact" pages respectively.
   * The active page is highlighted with a bigger font and a glass of wine icon.
   * Hovering over an inactive page in the menu increases its size.
@@ -223,11 +222,13 @@ All links have been tested to ensure they load the right page without errors.
 
 * Hovering over the link with the text "Request Information" in "Get in touch" section higlights it changing its color. Clicking on it loads "Our wines" page.
 
-* Form in Contact page
+* Form in Contact page and contact confimation page
   * The first three fields are required and the form can't be submitted unless they are filled out.
-  * Sending a form loads the "Thank you" page.
+  * Sending a form loads the "Thank you" page. The link to return to Home page works correctly.
 
 * The embedded Google Map is displayed correctly and can be interacted with.
+
+* The 404 page is loaded if a page can't be loaded. The link to the Home page works correctly.
 
 #### Responsiveness
 
@@ -302,6 +303,7 @@ The project will now of been cloned on your local machine for use.
 * white-wine-2: Image by [avgustintomaz](https://pixabay.com/users/avgustintomaz-15252385/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4981815) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4981815)
 * white-wine-3: Image by [Christo Anestev](https://pixabay.com/users/anestiev-2736923/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1839024) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1839024)
 * white-wine-4: Image by [Gábor Adonyi](https://pixabay.com/users/adonyig-4265448/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3546566) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3546566)
+* 404 page: Image by [Alexa](https://pixabay.com/users/alexas_fotos-686414/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=642267) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=642267)
 
 ### Acknowledgments
 
