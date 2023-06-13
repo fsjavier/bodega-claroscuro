@@ -281,6 +281,7 @@ hr {
 .wines-section {
     width: 96%;
     margin: auto;
+    padding-top: 0.5rem;
 }
 
 #red-wines-header {
@@ -369,6 +370,7 @@ hr {
 #contact-page {
     width: 96%;
     margin: auto;
+    padding-top: 0.5rem;
 }
 
 #contact-header {
@@ -682,9 +684,17 @@ button[type=submit]:hover {
         width: 50%;
     }
 
+    .wines-section {
+        padding: 0;
+    }
+
     #red-wines-header,
     #white-wines-header {
         padding: 2rem;
+    }
+
+    #contact-page {
+        padding: 0;
     }
 
     #contact-form {
