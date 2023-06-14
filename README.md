@@ -142,6 +142,7 @@ The website serves as an online presence to engage wine enthusiasts, offering th
 * [TinyPNG](https://tinypng.com) was used to compress the images.
 * [Convertio](https://convertio.co) was used to convert the images to webP.
 * [Favicon](https://favicon.io/) to create the favicon files and links.
+* [removebg](https://www.remove.bg/) to remove the background of some of the images.
 
 ## Testing
 
