@@ -248,7 +248,7 @@ The website has been tested in the following browsers on desktop, without findin
 
 ### Bugs
 
-Some of the wine bottle images have incorrect aspect ratio, so in very big screen they could look misaligned. This will be fixed in the future replacing them for better images.
+One of the wine bottle images had incorrect aspect ratio, so in big screen the image and text in the grid looked misaligned. This has been fixed resizing the image, but in the future the images should be replaced for new ones made with the required size.
 
 ## Deployment
 
@@ -301,8 +301,8 @@ The project will now of been cloned on your local machine for use.
 * red-wine-4: Image by [Christo Anestev](https://pixabay.com/users/anestiev-2736923/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2041226) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2041226)
 * white-wine-1: Image by [Alexis León](https://pixabay.com/users/alexisleon-1398503/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=939640) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=939640)
 * white-wine-2: Image by [avgustintomaz](https://pixabay.com/users/avgustintomaz-15252385/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4981815) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4981815)
-* white-wine-3: Image by [Christo Anestev](https://pixabay.com/users/anestiev-2736923/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1839024) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1839024)
-* white-wine-4: Image by [Gábor Adonyi](https://pixabay.com/users/adonyig-4265448/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3546566) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3546566)
+* white-wine-3: Image by [Gábor Adonyi](https://pixabay.com/users/adonyig-4265448/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3546566) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3546566)
+* white-wine-4: Image by [Christo Anestev](https://pixabay.com/users/anestiev-2736923/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2026626) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2026626)
 * 404 page: Image by [Alexa](https://pixabay.com/users/alexas_fotos-686414/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=642267) from [Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=642267)
 
 ### Acknowledgments
