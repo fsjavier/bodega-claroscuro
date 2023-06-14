@@ -1,15 +1,8 @@
 /*
- Color Theme Swatches in RGBA
+Main colors used throughout the site. Different alpha values may be used when softer colors are required.
+
 strong-mustard {
     color: rgba(165, 138, 3, 1);
-}
-
-camouflage {
-    color: rgba(63, 50, 12, 1);
-}
-
-top-hat-tan {
-    color: rgba(191, 163, 147, 1);
 }
 
 old-mandarin {
@@ -22,10 +15,12 @@ dark-sienna {
 */
 
 
-/* Import fonts */
+/* import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poiret+One&display=swap');
 
 /* generic rules */
+
+/* A mobile first approach has been taken. Media queries will be used to adapt to bigger screens */
 
 * {
     margin: 0;
@@ -64,6 +59,7 @@ li {
 
 /* header */
 
+/* navigation menu will be located below the logo */
 header {
     display: flex;
     flex-direction: column;
@@ -99,6 +95,7 @@ header a {
     font-weight: 600;
 }
 
+/* Increase its size to highlight the link when hovering over it */
 #menu a:hover {
     font-size: 120%;
     font-weight: 600;
@@ -111,7 +108,7 @@ header a {
     height: 75vh;
 }
 
-/* about */
+/* about section */
 
 #about {
     display: flex;
@@ -127,12 +124,13 @@ header a {
     align-items: center;
     justify-content: space-evenly;
     width: 96%;
+    /* leave space on the sides */
     text-transform: uppercase;
     margin: 1.5rem 0 2.5rem;
     padding: 10px 0;
     background-color: rgba(165, 138, 3, 0.2);
-    /* strong-mustard */
-    box-shadow: 0px 0px 6px -1px rgba(165, 138, 3, 0.9)
+    box-shadow: 0px 0px 6px -1px rgba(165, 138, 3, 0.9);
+    /* for depth look */
 }
 
 #about-box h2 {
@@ -141,9 +139,7 @@ header a {
 
 #about-box a {
     color: rgba(63, 17, 17, 1);
-    /* dark-sienna */
     border: 2px solid rgba(63, 17, 17, 1);
-    /* dark-sienna */
     border-radius: 2px;
     padding: 10px;
 }
@@ -151,26 +147,25 @@ header a {
 #about-box a:hover {
     color: white;
     background-color: rgba(63, 17, 17, 1);
-    /* dark-sienna */
 }
 
+/* column for mobile */
 #about-first,
 #about-second {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 96%;
+    /* same as #about-box */
     margin-bottom: 1.5rem;
 }
 
+/* boxes for the background images. Width and height chosen to keep the aspect ratio and be visible in devices from 280px */
 #about-us-container,
 #about-news-container {
-    /* width: 300px;
-    height: 200px; */
     width: 270px;
     height: 180px;
     border: 1px solid rgba(165, 138, 3, 0.7);
-    /* strong-mustard */
     padding: 3px;
     border-radius: 5%;
 }
@@ -195,6 +190,10 @@ header a {
     border-radius: 5%;
 }
 
+.wine-name {
+    font-weight: 800;
+}
+
 /* winemaking */
 
 #winemaking {
@@ -205,6 +204,7 @@ header a {
     background: url('../images/wine-cellar.webp') no-repeat center center;
     background-color: rgba(63, 17, 17, 0.7);
     background-blend-mode: darken;
+    /* added because image was too bright and to give a winery color look */
     background-size: cover;
     height: 450px;
     margin-top: 30px;
@@ -214,12 +214,14 @@ header a {
     font-size: 180%;
     text-transform: uppercase;
     color: white;
+    /* for good contrast */
     padding-bottom: 50px;
 }
 
 #winemaking p {
     font-weight: 600;
     color: white;
+    /* for good contrast */
     width: 80%;
     text-align: center;
     padding-bottom: 50px;
@@ -227,7 +229,9 @@ header a {
 
 #winemaking a {
     color: white;
+    /* for good contrast */
     border: 2px solid white;
+    /* for good contrast */
     border-radius: 2px;
     padding: 15px;
 }
@@ -235,11 +239,11 @@ header a {
 #winemaking a:hover {
     color: rgba(165, 138, 3, 1);
     border: 2px solid rgba(165, 138, 3, 1);
-    /* strong-mustard */
 }
 
 /* footer */
 
+/* links below opening hours in small devices */
 footer {
     margin-top: 2rem;
     padding-bottom: 1rem;
@@ -261,7 +265,7 @@ footer {
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid rgba(63, 17, 17, 1);
     width: 100%;
     margin: 5px 0;
 }
@@ -281,6 +285,7 @@ hr {
 
 .wines-section {
     width: 96%;
+    /* to keep same look as width for elements in home page */
     margin: auto;
     padding-top: 0.5rem;
 }
@@ -288,11 +293,12 @@ hr {
 #red-wines-header {
     font-size: 180%;
     background-color: rgba(63, 17, 17, 0.9);
-    /* dark-sienna */
     padding: 1.5rem;
     color: white;
+    /* for good contrast */
     text-transform: uppercase;
     box-shadow: 0px 0px 6px -1px rgb(63, 17, 17);
+    /* for depth look */
     margin-bottom: 2rem;
     text-align: center;
 }
@@ -300,33 +306,36 @@ hr {
 #white-wines-header {
     font-size: 180%;
     background-color: rgba(165, 138, 3, 0.2);
-    /* trong mustard */
     padding: 1.5rem;
     text-transform: uppercase;
     box-shadow: 0px 0px 6px -1px rgba(165, 138, 3, 0.9);
-    /* strong mustard */
+    /* for depth look */
     margin: 4rem 0 2rem 0;
     text-align: center;
 }
 
+/* one column in small devices */
 .wines-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
+    /* space between grid elements */
 }
 
+/* column for small devices, with text below image */
 .wines {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: rgba(63, 17, 17, 0.01);
-    /* dark-sienna */
+    /* very light color to give a subtle card look */
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px rgba(63, 17, 17, 0.03);
 }
 
 .wine-bottle {
+    /* size chosen to keep aspect ratio and be visible in devices from 280px*/
     height: 270px;
     width: 180px;
 }
@@ -356,8 +365,6 @@ hr {
 .wine-pricing ul {
     background-color: rgba(165, 138, 3, 0.08);
     box-shadow: 0px 0px 3px 0px rgba(165, 138, 3, 0);
-    /* border: 1px solid rgba(63, 17, 17, 1); */
-    /* dark-sienna */
     padding: 1rem 2rem;
     border-radius: 5px;
 }
@@ -370,6 +377,7 @@ hr {
 
 #contact-page {
     width: 96%;
+    /* to keep the same look as the other pages */
     margin: auto;
     padding-top: 0.5rem;
 }
@@ -377,31 +385,32 @@ hr {
 #contact-header {
     font-size: 165%;
     background-color: rgba(63, 17, 17, 0.9);
-    /* dark-sienna */
     padding: 1.5rem;
     color: white;
+    /* for better contrast */
     text-transform: uppercase;
     box-shadow: 0px 0px 6px -1px rgb(63, 17, 17);
-    /* dark-sienna */
+    /* for depth look */
     margin-bottom: 2rem;
     text-align: center;
 }
 
 /* contact form */
 
+/* column for small devices */
 #contact {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
+/* form below text in small devices */
 #contact-form {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     background-color: rgba(165, 138, 3, 0.05);
-    /* strong mustard */
     box-shadow: 1px 1px 1px 1px rgba(165, 138, 3, 0.05);
     border-radius: 5px;
     padding: 0.5rem;
@@ -480,6 +489,7 @@ button[type=submit]:hover {
     margin-bottom: 1rem;
 }
 
+/* column with map below text in small devices */
 #location-container {
     display: flex;
     flex-direction: column;
@@ -522,8 +532,9 @@ button[type=submit]:hover {
     color: rgb(63, 17, 17);
 }
 
-/* Contact confirmation */
+/* contact confirmation */
 
+/* adjusting the body to keep the footer at the bottom of the screen */
 #body-confirmation {
     display: flex;
     flex-direction: column;
@@ -549,11 +560,14 @@ button[type=submit]:hover {
     padding-bottom: 2rem;
 }
 
+
 /* media queries */
 
 /* from S size phone (iPhone SE and similar) */
 
 @media screen and (min-width: 320px) {
+
+    /* increase sizes */
     #logo {
         font-size: 200%;
     }
@@ -586,6 +600,8 @@ button[type=submit]:hover {
 /* from L size phone (Galaxy S20 Ultra and similar) */
 
 @media screen and (min-width: 410px) {
+
+    /* increase sizes and padding */
     #logo {
         font-size: 260%;
         padding: 1rem;
@@ -617,6 +633,8 @@ button[type=submit]:hover {
 /* from big tablets / small laptops size */
 
 @media screen and (min-width: 600px) {
+
+    /* text next to the image */
     .wines {
         flex-direction: row;
     }
@@ -634,6 +652,8 @@ button[type=submit]:hover {
 /* from big tablets / small laptops size */
 
 @media screen and (min-width: 900px) {
+
+    /* move the navigation menu to the right */
     header {
         flex-direction: row;
         align-items: center;
@@ -651,10 +671,12 @@ button[type=submit]:hover {
         justify-content: flex-end;
     }
 
+    /* move the link up */
     #about-box {
         flex-direction: row;
     }
 
+    /* move texts next to images */
     #about-first {
         flex-direction: row;
         width: 85%;
@@ -669,6 +691,7 @@ button[type=submit]:hover {
         width: 60%;
     }
 
+    /* move social media links up next to opening hours */
     footer {
         flex-direction: row;
     }
@@ -698,6 +721,7 @@ button[type=submit]:hover {
         padding: 0;
     }
 
+    /* move form up next to text */
     #contact-form {
         flex-direction: row;
     }
@@ -722,6 +746,7 @@ button[type=submit]:hover {
         width: 50%;
     }
 
+    /* move map up next to text */
     #location-container {
         flex-direction: row;
     }
@@ -756,12 +781,10 @@ button[type=submit]:hover {
 /* from big tablets / small laptops size */
 
 @media screen and (min-width: 1200px) {
+
+    /* change wines grid to two columns */
     .wines-grid {
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .wines {
-        flex-direction: row;
     }
 
     .wine-bottle {
@@ -773,6 +796,7 @@ button[type=submit]:hover {
         font-size: 95%;
     }
 
+    /* move location up next to form */
     #contact {
         flex-direction: row;
     }
@@ -785,6 +809,7 @@ button[type=submit]:hover {
         height: 8.5rem;
     }
 
+    /* move text up above the map */
     #location-container {
         flex-direction: column;
         height: 92%;
