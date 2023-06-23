@@ -38,7 +38,7 @@ The website serves as an online presence to engage wine enthusiasts, offering th
 
 * Navigation Bar
   * The navigation bar is present in all pages. It keeps always the same position for consistency and to make it easier for user to navigate the website.
-  * It includes the logo (clickable, linking to the home page) and links to "Home", "Oud wines" and "Contact". It's responsive, on wide screen the logo is on the left side and the navigation bar on the right, while on smaller screens the navigation bar moves under the logo.
+  * It includes the logo (clickable, linking to the home page) and links to "Home", "Our wines" and "Contact". It's responsive: on wide screen the logo is on the left side and the navigation bar on the right, while on smaller screens the navigation bar moves under the logo.
   * It's implemented in all pages.
 
 ![Logo and navigation](documentation/readme_images/header.png)
@@ -70,7 +70,7 @@ The website serves as an online presence to engage wine enthusiasts, offering th
 ### Our wines
 
 * This page gives an overview of all available wines, split into two sections: Red wines and White wines.
-* Each wine is contained in a card like box to separate visually each of them. The cards contain a description of the wine and its price.
+* Each wine is contained in a box styled like a card to separate visually each of them. The cards contain a description of the wine and its price.
 * The design is responsive, with two columns of cards for wide screens and the image of the bottle and text next to each other. For mid size screen there is only one column of cards. For the smallest screens there is also one column and the text moves below the image.
 
 ![Our wines](documentation/readme_images/our_wines.png)
@@ -190,7 +190,7 @@ Lighthouse from Google Chrome Developer Tools was used to test performance and a
   
 #### Wave WebAIM
 
-The WAVE WebAIM web accessibility tool was used during the dvelopment and for final testing of the website to check there were no accessibility problems.
+The WAVE WebAIM web accessibility tool was used during the development and for final testing of the website to check there were no accessibility problems.
 
 No errors were found, the only alert was due to redundant links. This was due to having the same links in the navigation bar and some other parts of the website (e.g. the link to home in the logo.).
 
@@ -256,10 +256,10 @@ One of the wine bottle images had incorrect aspect ratio, so in big screen the i
 ### Deployment to GitHub Pages
 
 * The site was deployed to GitHub pages. The steps to deploy are as follows:
-  * In the GitHub repository, navigate to the Settings tab
-  * From the menu on left select 'Pages'
-  * From the source section drop-down menu, select the Branch: main
-  * Click 'Save'
+  * In the GitHub repository, navigate to the Settings tab.
+  * From the menu on left select 'Pages'.
+  * From the source section drop-down menu, select the Branch: main.
+  * Click 'Save'.
   * A live link will be displayed in a green banner when published successfully.
 
 The live link can be found here - https://fsjavier.github.io/bodega-claroscuro/
